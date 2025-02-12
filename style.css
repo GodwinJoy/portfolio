@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+}
+img{
+    height: 35px;
+    width: 30px;
+}
+
+.navbar{
+    height: 90px;
+    width: 100%;
+    color: black;
+    background-color: gray;
+    position: sticky;
+    top: 0;
+}
+.list{
+    height: 30px;
+    padding: 5px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: white;
+}
+
+.home{
+    height: 400px;
+    width: 500px;
+    margin: 50px;
+    margin-left: 150px;
+    margin-top: 80px;
+    padding: 20px;
+    text-align: justify;
+
+}
+h1{
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+.image img{
+    height: 500px;
+    width: 485px;
+    left: 65%;
+    margin-left: 850px;
+    margin-top: -330px;
+}
+
+.image:hover .steve{
+    filter: drop-shadow(2px 4px 10px black);
+    border-radius: 10%;
+    transform: translate(-30%);
+    transition: 3s ease-in;
+}
+
+.row{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    height: 300px;
+    width: 200px;
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    transition: height 5s;
+}
+#head{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 500px;
+    margin-left: 500px;
+    border-radius: 30px;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.col:hover{
+    transform: translate(-10%);
+    transition: 1.2s ease-out;
+    height: 250px;
+}
+.topic{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.pro{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    height: 230px;
+    width: 300px;
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.item .phone{
+    width: 297px;
+    height: 200px;
+    border-radius: 10px;
+}
+.item .phone:hover{
+    scale: 1.05;
+}
+
+.produc{
+    background-color: grey;
+    color: white;
+    height: 100px;
+    width: 500px;
+    margin-left: 500px;
+    border-radius: 30px;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    border: 5px  ridge rgb(0, 0, 0);
+}
+
+footer{
+    height: 300px;
+    width: 96%;
+    background-color: gray;
+    padding: 30px;
+}
+form{
+    width: 300px;
+    margin-left: 570px;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding-right: 4px;
+    padding: 10px;
+}
+.connect{
+    background-color: black;
+    border: 4px ridge white;
+    color: white;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+
+}
+button{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 105px;
+}
+
+.link{
+    margin-left: 620px;
+    margin-top: 20px;
+
+}
+img{
+    width: 70px;
+    height: 60px;
+}
